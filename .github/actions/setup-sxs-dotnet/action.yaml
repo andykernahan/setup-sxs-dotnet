@@ -1,0 +1,7 @@
+name: 'Setup multiple .NET Core SDKs'
+description: 'Setup one or more versions of the .NET Core CLI in the PATH'
+dotnet-versions:
+  description: 'SDK versions to setup. Example: 2.1.202, 2.1.805'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'

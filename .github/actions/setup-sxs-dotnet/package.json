@@ -1,0 +1,20 @@
+{
+  "name": "setup-sxs-dotnet",
+  "main": "lib/action.js",
+  "scripts": {
+    "build": "tsc && ncc build",
+    "format": "prettier --write **/*.ts"
+  },
+  "dependencies": {
+    "@actions/core": "^1.2.0",
+    "@actions/io": "^1.0.1",
+    "@actions/tool-cache": "^1.1.2",
+    "fs-extra": "^9.0.0",
+    "setup-dotnet": "github:actions/setup-dotnet#v1.4.0"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "^0.21.0",
+    "prettier": "^1.17.1",
+    "typescript": "^3.5.1"
+  }
+}
