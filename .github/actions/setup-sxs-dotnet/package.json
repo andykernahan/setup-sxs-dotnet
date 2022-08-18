@@ -6,7 +6,7 @@
     "format": "prettier --write **/*.ts"
   },
   "dependencies": {
-    "@actions/core": "^1.2.0",
+    "@actions/core": "^1.9.1",
     "@actions/io": "^1.0.1",
     "@actions/tool-cache": "^1.1.2",
     "fs-extra": "^9.0.0",
